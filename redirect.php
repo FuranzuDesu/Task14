@@ -61,6 +61,13 @@
             </td>
         </tr>
         <tr>
+            <td>Email:</td>
+            <td style="text-decoration: underline">
+                <!-- Use ternary operator to check if the request type is GET or POST -->
+                <?php echo ($req_type == '$_GET') ? $_GET['email'] : $_POST['email'];?>
+            </td>
+        </tr>
+        <tr>
             <td>Address:</td>
             <td style="text-decoration: underline">
                 <!-- Use ternary operator to check if the request type is GET or POST -->

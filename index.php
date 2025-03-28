@@ -52,6 +52,12 @@
                 </td>
             </tr>
             <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" name="email" placeholder="Enter Email" required />
+                </td>
+            </tr>
+            <tr>
                 <td>Address</td>
                 <td>
                     <input type="text" name="address" placeholder="Enter Address" required />
@@ -100,6 +106,12 @@
                 <td>Age</td>
                 <td>
                     <input type="number" name="age" placeholder="Enter Age" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" name="email" placeholder="Enter Email" required />
                 </td>
             </tr>
             <tr>
